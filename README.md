@@ -8,6 +8,10 @@ CSE 321: Operating Systems -
 
 # Lab Assignment 1
 
+Ans: ⚡  <a href="https://github.com/AnonXarkA/OPERATING-SYSTEMS-CSE321-BRACU/tree/main/Lab%201"> LAB 1</a> <be> 
+
+
+
 This document outlines the tasks for Lab Assignment 1 for the CSE 321 Operating Systems course. The assignment is divided into two main sections and is worth a total of 25 marks.
 
 1. Linux Shell Commands (11 Marks)
@@ -34,10 +38,11 @@ Task d (3 Marks): Write a function to check if a company email address is using 
 
 Task e (3 Marks): Implement a program that uses pointers to determine if a given string is a palindrome.
 
-
+Ans: ⚡  <a href="https://github.com/AnonXarkA/OPERATING-SYSTEMS-CSE321-BRACU/tree/main/Lab%201"> LAB 1</a> <be> 
 
 #  Lab Assignment 2
 
+Ans: ⚡  <a href="https://github.com/AnonXarkA/OPERATING-SYSTEMS-CSE321-BRACU/tree/main/Lab%202"> LAB 2</a> <be> 
 
 This document outlines the tasks for Lab Assignment 2 for the CSE 321 Operating Systems course. The assignment focuses on C programming, system calls, and threading, with a total of 20 marks available.
 
@@ -70,8 +75,11 @@ Task 2 (2 Marks): Use five threads to print five integers each in a sequential o
 
 Task 3 (2 Marks): Create three threads that calculate the sum of ASCII values for three different usernames. A fourth thread will then compare these sums and print "Youreka" if all are equal, "Miracle" if two are equal, or "Hasta la vista" if none are equal.
 
+Ans: ⚡  <a href="https://github.com/AnonXarkA/OPERATING-SYSTEMS-CSE321-BRACU/tree/main/Lab%202"> LAB 2</a> <be> 
 
 # Lab Assignment 3
+
+Ans: ⚡  <a href="https://github.com/AnonXarkA/OPERATING-SYSTEMS-CSE321-BRACU/tree/main/Lab%203"> LAB 3</a> <be> 
 
 This document provides an overview of the tasks for Lab Assignment 3 for the CSE 321 Operating Systems course. The assignment is worth a total of 20 marks and focuses on inter-process communication (IPC).
 
@@ -107,9 +115,11 @@ Verification: The log in process receives the OTP from both the otp_generator an
 
 Termination: The log in process prints the final verification status ("OTP Verified" or "OTP Incorrect") and removes the message queue.
 
-
+Ans: ⚡  <a href="https://github.com/AnonXarkA/OPERATING-SYSTEMS-CSE321-BRACU/tree/main/Lab%203"> LAB 3</a> <be> 
 
 # Lab Assignment 4
+
+Ans: ⚡  <a href="https://github.com/AnonXarkA/OPERATING-SYSTEMS-CSE321-BRACU/tree/main/Lab%204"> LAB 4</a> <be> 
 
 This document outlines the tasks for Lab Assignment 4 for the CSE 321 Operating Systems course. The assignment is worth a total of 20 marks and focuses on synchronization using semaphores and mutexes in C.
 
@@ -139,8 +149,15 @@ Synchronization: This solution requires the use of both mutexes for mutual exclu
 Implementation: You will need to complete the Farmer and ShopOwner functions. Farmers will add crops to the warehouse, and shop owners will remove them. The program must correctly manage access to the shared warehouse buffer among the ten threads.
 
 
+Ans: ⚡  <a href="https://github.com/AnonXarkA/OPERATING-SYSTEMS-CSE321-BRACU/tree/main/Lab%204"> LAB 4</a> <be> 
+
+
 
 # Lab Assignment 5
+
+
+Ans: ⚡  <a href="https://github.com/AnonXarkA/OPERATING-SYSTEMS-CSE321-BRACU/tree/main/Lab%205"> LAB 5</a> <be> 
+
 This document provides an overview of the single task for Lab Assignment 5 for the CSE 321 Operating Systems course. The assignment is worth a total of 20 marks and focuses on virtual memory management.
 
 Task 1: Logical to Physical Address Mapping (20 Marks)
@@ -175,6 +192,10 @@ You are required to modify a provided C code skeleton to implement the solution.
 The core of the task is to correctly extract the page number and offset from each logical address.
 
 Use the page number to look up the corresponding frame number in the page table.
+
+
+
+Ans: ⚡  <a href="https://github.com/AnonXarkA/OPERATING-SYSTEMS-CSE321-BRACU/tree/main/Lab%205"> LAB 5</a> <be> 
 
 Calculate the final physical address using the formula: physical_address = (frame_number * page_size) + offset.
 
