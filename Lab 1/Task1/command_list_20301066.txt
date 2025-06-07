@@ -1,0 +1,35 @@
+a)
+
+
+touch 20301066_1.txt
+touch 20301066_2.txt 20301066_3.txt 20301066_4.txt
+mkdir arka1 arka2
+mv 20301066_1.txt 20301066_2.txt 20301066_3.txt arka1/ 
+cp 20301066_1.txt 20301066_2.txt ~/Desktop/cse321/lab/lab1/task1/arka2/ 
+mkdir arka3
+cp -r arka1 arka3/ 
+cd arka3/ 
+ls -l  
+chmod -R 755 *
+cd ..
+ls -l
+sudo mv arka3 /
+rm -r *
+
+
+b)
+
+nano course_spring.txt
+cat course_spring.txt
+grep -c "CSE" course_spring.txt
+
+c)
+
+cd / 
+ls -a 
+
+d)
+
+nano a.txt
+head -n 17 a.txt | tail -n +5
+
